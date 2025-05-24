@@ -5,7 +5,7 @@ const Schema = mongoose.Schema
 
 const todoSchema = new Schema<ITodo>({
    task:String,
-   deadline:String,
+   deadLine:String,
    status:{
     type:String,
     enum:[status.Completed,status.Pending],

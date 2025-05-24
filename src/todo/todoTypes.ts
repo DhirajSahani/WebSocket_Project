@@ -7,6 +7,6 @@ export enum status{
 }
 export interface ITodo{
     task:String,
-    deadline:String,
+    deadLine:String,
     status:status
 }
